@@ -16,6 +16,9 @@ Siga as instruções -> https://github.com/gallvones/blackjack
 
 Terminou de configurar o arcade blackjack? Se sim, prossiga 👇🏼
 
+Login e senha para acessar o projeto via SSO:
+login:testando@gmail.com
+senha:senha123
 Agora sim, acesse o e-commerce normalmente! Repare que no header tem um botão que te direciona para o blackjack, farme Kassino Money (K$) 
 e veja seu saldo atualizar em ambos os projeto!
 
