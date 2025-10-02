@@ -24,7 +24,7 @@ Agora sim, acesse o e-commerce normalmente! Repare que no header tem um botão q
 e veja seu saldo atualizar em ambos os projeto!
 Vídeo explicativo do projeto e mostrando a checklist:
 https://www.loom.com/share/a1bb4d2447a84b2ead4faa5b659b5915?sid=5d1903ed-395f-4849-85a2-f12c9b6e74ae
-youtube -> 
+
 
 
 
