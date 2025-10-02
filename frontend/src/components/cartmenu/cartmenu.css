@@ -1,0 +1,198 @@
+/* overlay */
+.cart-menu-close{
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    display: none;                 /* fechado */
+    justify-content: flex-end;     /* painel encostado à direita */
+    align-items: stretch;
+    z-index: 10000;
+  }
+  
+  .cart-menu-open{
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    display: flex;                 /* aberto */
+    justify-content: flex-end;     /* painel encostado à direita */
+    align-items: stretch;
+    z-index: 10000;
+  }
+  
+
+  .empty-cart-close,
+  .empty-cart-open{
+    width: 35vw;                  
+    max-width: none;
+    height: 100vh;
+    background: rgb(191, 191, 191);            
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(129, 121, 82);      
+    font-size: 20px;
+    position: relative;           
+    padding: 24px 20px;
+    box-shadow: -8px 0 16px rgba(0,0,0,0.15);
+  }
+  
+  /* estado fechado some */
+  .empty-cart-close { display: none; }
+  
+  /* ícone texto do carrinho vazio */
+  .cart_icon_empty{
+    font-size: 40px;
+    color: rgb(129, 121, 82);
+  }
+  
+  /* container da lista de itens */
+  .items-cart-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 350px;
+  }
+  
+  /* lista com scroll */
+  .items-cart {
+    max-height: calc(100vh - 180px);
+    overflow-y: auto;
+    padding-right: 10px;
+    width: 100%;
+  }
+  
+  /* item do carrinho */
+  .item-cart-row {
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid rgb(129, 121, 82);
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .item-cart-image{
+    height: 100px;
+    width: 80px;
+    border: 1px solid rgb(129, 121, 82);
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .item-cart-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    flex: 1;
+  }
+  
+  .item-cart-title{
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .item-cart-price{
+    font-size: 15px;
+    color: #333;
+  }
+  
+  /* quantidade */
+  .item-cart-quantity{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    font-size: 14px;
+    white-space: nowrap;
+    color: #333;
+  }
+  
+  .decrease-quantity-oncart,
+  .increase-quantity-oncart{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: 1px solid rgb(129, 121, 82);
+    padding: 2.5px;
+    height: 14px;
+    width: 14px;
+    margin: 0 3px;
+    color: rgb(129, 121, 82);
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .decrease-quantity-oncart:hover,
+  .increase-quantity-oncart:hover {
+    background-color: rgb(129, 121, 82);
+    color: black;
+    font-weight: bold;
+  }
+  
+  .quantity-oncart{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: 1px solid rgb(129, 121, 82);
+    padding: 2.5px;
+    height: 20px;
+    width: 18px;
+    margin: 0;
+    color: rgb(129, 121, 82);
+  }
+  
+  .price-and-trash{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .remove-item-from-cart{
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 16px;
+    color: rgb(129, 121, 82);
+  }
+  
+  .remove-item-from-cart:hover{
+    color: #000;
+  }
+  
+  /* botão fechar no canto superior direito do painel */
+  .button_close{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: rgb(129, 121, 82);
+    cursor: pointer;
+    outline: none;
+    font-size: 32px;
+  }
+  
+  /* total */
+  .total-value{
+    font-size: 16px;
+    margin-top: auto;  /* empurra para o fim do painel */
+    align-self: flex-end;
+    color: #333;
+  }
+
+  .cart-buy{
+    margin-top: 20px;
+  }
+  

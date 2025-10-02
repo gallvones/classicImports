@@ -1,0 +1,11 @@
+.section1-all-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1-cards-container {
+    display: flex;
+    gap: 100px ;
+    
+}

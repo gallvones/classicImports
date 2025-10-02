@@ -1,0 +1,63 @@
+.header-container {
+    display: flex;
+    justify-content: space-between; /* esquerda <-> direita */
+    align-items: center;
+    padding: 15px 40px;
+  }
+  
+  .left-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .logo-container img {
+    width: 150px;
+    height: auto;
+    border: 3px solid rgb(129, 121, 82);
+    border-radius: 20px;
+  }
+  
+  .left-header h2 {
+    font-size: 40px;
+    color: rgb(181, 159, 121);
+  }
+  
+  .right-header {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+  }
+  
+  
+  .user-info {
+    display: flex;
+    flex-direction: column; 
+    text-align: right;
+    color: rgb(181, 159, 121);
+    font-size: 16px;
+  }
+  
+  .user-info button {
+    background: none;
+    margin-top: 10px;
+    border: 2px solid rgb(129, 121, 82);
+    border-radius: 20px;
+    padding: 6px 12px;
+    color: rgb(129, 121, 82);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .user-info button:hover {
+    background-color: rgb(129, 121, 82);
+    color: #fff;
+  }
+  .cart-icon {
+    font-size: 30px;
+    color: rgb(129, 121, 82);
+    cursor: pointer;
+  }
+
+  
